@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ABC177DA-A6FA-415A-AA5C-CB22C8BC4EE3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BATTLEUFO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BATTLEUFO.Designer.cs">
+      <DependentUpon>BATTLEUFO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BATTLEUFO.resx">
+      <DependentUpon>BATTLEUFO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cannon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Laser beam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Laser beam1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gray-Alien-with-Uniform-Spaceship-UFO-PixelBoom-268x268-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue_sky_pixel_animation.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DopeyHideousGelding-max-1mb.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gray-Alien-with-Uniform-Spaceship-UFO-PixelBoom-268x268-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WBVk.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LaserHit.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LaserShoot.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3d7a1d49b7940e4672b62f91b18712c2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\téléchargement.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DopeyHideousGelding-max-1mb1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inkpendude-portal-storm.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jouer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Option.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WBVk1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0f15c107edabcfe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0f15c107edabcfe-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Newbackbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e3f172c9f12f80c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EasyButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LaserbeamShortt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MediumButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HardButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Easy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewEasy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewMedium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Newhard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unmute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArcadeSong.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arcade Game Menu Music Loop Sound Effect %288-Bit Style%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rules.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Textt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NEW TEXT-removebg-preview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ca7c601f88f75005388b1ebd86b08149.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ca7c601f88f75005388b1ebd86b08149-removebg-preview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ca7c601f88f75005388b1ebd86b081491.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ca7c601f88f75005388b1ebd86b08149-removebg-preview1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rulesssss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Start.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,5 @@
+﻿Build started...
+1>------ Build started: Project: WindowsFormsApp1, Configuration: Debug Any CPU ------
+1>C:\Users\lecon\Downloads\WindowsFormsApp1 (5) (1)\WindowsFormsApp1 (5)\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1\BATTLEUFO.cs(28,15,28,22): warning CS0414: The field 'BATTLEUFO.vxLazer' is assigned but its value is never used
+1>  WindowsFormsApp1 -> C:\Users\lecon\Downloads\WindowsFormsApp1 (5) (1)\WindowsFormsApp1 (5)\WindowsFormsApp1\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
